@@ -1,7 +1,4 @@
 var fs = require('fs');
-
-
-
 const text = fs.readFileSync("./data.txt").toString();
  const stringArray = text.split('\.');
  var sayac = 1;
